@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    height: 1350px;
+    margin: 0 auto;
+    border: 2px solid grey;
+
+}
+.box1{
+    width: 100%;
+    height: 300px;
+
+    background-color: blueviolet;
+}
+.imgmin{
+    width: 110px;
+    height: 110px;
+    border-radius: 45%;
+    
+}
+.sli{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.head1{
+display: flex;
+justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.head2{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.bigbox2{
+    width: 100%;
+    background-color: white
+}
+.medbox{
+    border: 1px solid grey;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img3{
+    width: 200px;
+    height: 135px;
+    margin: 10px;
+}
+.textik{
+    width: 200px;
+    text-align: center;
+
+}
+.smbox{
+    width: 500px;
+    height: auto;
+    padding: 5px;
+}
+.btn4{
+    padding: 7px;
+    text-transform: uppercase;
+    background-color: red;
+    color: aliceblue;
+    margin: 5px;
+}
+.fa-id-card{
+    font-size: 445px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.smbox2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ic{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+  
+}
+.fa-globe{
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.ik{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.ik1{
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.red {
+    background-color:red;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.blue{
+   
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.size {
+    width: 100%;
+    height: 200px;
+    border-radius: 0;
+}
+
+.txt4{
+    margin-bottom: -20px;
+    background-color:bisque;
+}
+
+.txt5{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.opacity{
+    opacity: 10%;
+}
+
+#twelvek{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+i:nth-child(){
+text-align: center;
+}
+
+.color1{
+    background-color: azure;
+}
+
+.color2{
+    background-color: aquamarine;
+}
+
+.color3{
+    background-color: bisque;
+}
+
+.globe2{
+    color: brown;
+    opacity: 50%;
+}
+
+.globe3{
+    color:chocolate;
+    opacity: 35%;
+}
+.zagolovokyellow{
+    color:yellow;
+}
+
+.spoiler-body{
+    display: none;
+}
+
+.ida{
+    text-align: center;
+    font-size: 23px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.size1{
+    display: none;
+    background-color: 0;
+}
+
+.btn{
+    border: 0 ;
+    background-color: none;
+}
+
+.fa-angle-double-left{
+    background-color: none;
+}
+
+.smbox1{
+    background-color: bisque;
+    z-index: 20;
+}
+
+.medbox1{
+    z-index: 100;
+}
